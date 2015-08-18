@@ -1,0 +1,238 @@
+From schmalls at berlios.de  Thu Aug 18 16:31:37 2005
+From: schmalls at berlios.de (Joshua Thompson at BerliOS)
+Date: Thu, 18 Aug 2005 16:31:37 +0200
+Subject: [Whomp-svn] r95 - in trunk/xatulsa.com/templates/xatulsa.com-frontpage: . images
+Message-ID: <200508181431.j7IEVb6N022500@sheep.berlios.de>
+
+Author: schmalls
+Date: 2005-08-18 16:31:35 +0200 (Thu, 18 Aug 2005)
+New Revision: 95
+
+Added:
+   trunk/xatulsa.com/templates/xatulsa.com-frontpage/contact.html
+   trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/abs.jpg
+   trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/abs.png
+   trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/catch-22.jpg
+   trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/catch-22.png
+Modified:
+   trunk/xatulsa.com/templates/xatulsa.com-frontpage/about.html
+   trunk/xatulsa.com/templates/xatulsa.com-frontpage/index.html
+   trunk/xatulsa.com/templates/xatulsa.com-frontpage/outreach.html
+   trunk/xatulsa.com/templates/xatulsa.com-frontpage/prayer.html
+Log:
+
+
+Modified: trunk/xatulsa.com/templates/xatulsa.com-frontpage/about.html
+===================================================================
+--- trunk/xatulsa.com/templates/xatulsa.com-frontpage/about.html	2005-08-04 17:15:07 UTC (rev 94)
++++ trunk/xatulsa.com/templates/xatulsa.com-frontpage/about.html	2005-08-18 14:31:35 UTC (rev 95)
+@@ -57,7 +57,7 @@
+ 						<h3>What is Chi Alpha?</h3>
+ 						<p>We are a movement of college students earnestly following Jesus.</p>
+ 						<h3>What is Chi Alpha like?</h3>
+-						<p>We meet on campus, in all sorts of settings and sizes (usually ACAC or someone's apartment). These gatherings are informal, charged with music, given to humor and deal with everything from relationships to the nature of truth. The goals of these gatherings are to meet with God, meet among friends and meet real needs.</p>
++						<p>We meet on campus, in all sorts of settings and sizes (usually upstairs ACAC). These gatherings are informal, charged with music, given to humor and deal with everything from relationships to the nature of truth. The goals of these gatherings are to meet with God, meet among friends and meet real needs.</p>
+ 						<h3>What makes Chi Alpha different?</h3>
+ 						<p>We are focused on transforming our world, locally and around the globe. We experience the supernatural. We work hard to learn from and join with international students. We strive to be multicultural. We see that faith and thinking are related.</p>
+ 						<h3>What's important to Chi Alpha?</h3>
+
+Added: trunk/xatulsa.com/templates/xatulsa.com-frontpage/contact.html
+===================================================================
+--- trunk/xatulsa.com/templates/xatulsa.com-frontpage/contact.html	2005-08-04 17:15:07 UTC (rev 94)
++++ trunk/xatulsa.com/templates/xatulsa.com-frontpage/contact.html	2005-08-18 14:31:35 UTC (rev 95)
+@@ -0,0 +1,91 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
++<html>
++			<head>
++				<title>XA Tulsa</title>
++				<link rel="stylesheet" href="files/main.css" type="text/css" />
++				<script type="text/javascript" src="files/imageswap.js"></script>
++			</head>
++			<body onload="">
++				<div id="bodycenter">
++					<div id="header">
++						<h1><span id="txt-xa">xa</span><span id="txt-tulsa">tulsa</span></h1>
++					</div>
++				<div id="navigation">
++					<div id="navigationcenter">
++						<div class="col">
++							<a href="about.html" onmouseover="imgover('about');" onmouseout="imgout('about');">
++								<span class="txt-over" id="txt-about">About XA</span>
++								<img class="img" id="img-about" src="images/about-out.jpg" alt="" />
++							</a>
++						</div>
++						<div class="col">
++							<a href="prayer.html" onmouseover="imgover('prayer');" onmouseout="imgout('prayer');">
++								<span class="txt-over" id="txt-prayer">Peak of the Week</span>
++								<img class="img" id="img-prayer" src="images/prayer-out.jpg" alt="" />
++							</a>
++						</div>
++						<div class="col">
++							<a href="service.html" onmouseover="imgover('service');" onmouseout="imgout('service');">
++								<span class="txt-over" id="txt-service">Rockin' Sockin' Tuesdays</span>
++								<img class="img" id="img-service" src="images/service-out.jpg" alt="" />
++							</a>
++						</div>
++						<div class="col">
++							<a href="outreach.html" onmouseover="imgover('outreach');" onmouseout="imgout('outreach');">
++								<span class="txt-over" id="txt-outreach">Reaching Out</span>
++								<img class="img" id="img-outreach" src="images/outreach-out.jpg" alt="" />
++							</a>
++						</div>
++						<div class="col">
++							<a href="bible.html" onmouseover="imgover('bible');" onmouseout="imgout('bible');">
++								<span class="txt-over" id="txt-bible">Get Yo' Word On</span>
++								<img class="img" id="img-bible" src="images/bible-out.jpg" alt="" />
++							</a>
++						</div>
++						<div class="col">
++								<span class="txt-over" id="txt-more" style="cursor:default;">More Info</span>
++								<img class="img" id="img-more" src="images/more-over.jpg" alt="" />
++						</div>
++					</div>
++				</div>
++				<br style="clear:both;" />
++				<br />
++				<div id="content">
++					<div id="contentcenter">
++						<h2>Contact Us</h2>
++						<p>
++							Joshua "Schmalls" Thompson<br />
++							Site Administrator<br />
++							<a href="mailto:admin at xatulsa.com">admin at xatulsa.com</a>
++						</p>
++						<p>
++							Justin "Bubba" Green<br />
++							Chi Alpha Campus Pastor<br />
++							<a href="mailto:pastor at xatulsa.com">pastor at xatulsa.com</a>
++						</p>
++						<p>
++							Dylan Allen<br />
++							Chi Alpha President<br />
++							<a href="mailto:president at xatulsa.com">president at xatulsa.com</a>
++						</p>
++						<p>
++							Brandon Hawkins<br />
++							Chi Alpha Secretary<br />
++							<a href="mailto:secretary at xatulsa.com">secretary at xatulsa.com</a>
++						</p>
++						<p>
++							Mindy Trim<br />
++							Chi Alpha Treasurer<br />
++							<a href="mailto:treasurer at xatulsa.com">treasurer at xatulsa.com</a>
++						</p>					
++					</div>
++				</div>
++				<div id="footer">
++					<div id="footercenter">
++						<a href="index.html">Home</a> | <a href="http://www.chialpha.com/">National Chi Alpha</a> | <a href="http://www.xaoklahoma.com/">Oklahoma Chi Alpha</a> | <a href="contact.html">Contact Us</a>
++					</div>
++				</div>
++				</div>
++			</body>
++		</html>
+\ No newline at end of file
+
+Added: trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/abs.jpg
+===================================================================
+(Binary files differ)
+
+
+Property changes on: trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/abs.jpg
+___________________________________________________________________
+Name: svn:mime-type
+   + application/octet-stream
+
+Added: trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/abs.png
+===================================================================
+(Binary files differ)
+
+
+Property changes on: trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/abs.png
+___________________________________________________________________
+Name: svn:mime-type
+   + application/octet-stream
+
+Added: trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/catch-22.jpg
+===================================================================
+(Binary files differ)
+
+
+Property changes on: trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/catch-22.jpg
+___________________________________________________________________
+Name: svn:mime-type
+   + application/octet-stream
+
+Added: trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/catch-22.png
+===================================================================
+(Binary files differ)
+
+
+Property changes on: trunk/xatulsa.com/templates/xatulsa.com-frontpage/images/catch-22.png
+___________________________________________________________________
+Name: svn:mime-type
+   + application/octet-stream
+
+Modified: trunk/xatulsa.com/templates/xatulsa.com-frontpage/index.html
+===================================================================
+--- trunk/xatulsa.com/templates/xatulsa.com-frontpage/index.html	2005-08-04 17:15:07 UTC (rev 94)
++++ trunk/xatulsa.com/templates/xatulsa.com-frontpage/index.html	2005-08-18 14:31:35 UTC (rev 95)
+@@ -11,6 +11,15 @@
+ 				<div id="header">
+ 					<h1><span id="txt-xa">xa</span><span id="txt-tulsa">tulsa</span></h1>
+ 				</div>
++				<!-- preload images -->
++				<div style="display:none">
++					<img src="images/about-over.jpg" alt="" />
++					<img src="images/prayer-over.jpg" alt="" />
++					<img src="images/service-over.jpg" alt="" />
++					<img src="images/outreach-over.jpg" alt="" />
++					<img src="images/bible-over.jpg" alt="" />
++					<img src="images/more-over.jpg" alt="" />
++				</div>
+ 				<div id="navigation">
+ 					<div id="navigationcenter">
+ 					<div class="col">
+
+Modified: trunk/xatulsa.com/templates/xatulsa.com-frontpage/outreach.html
+===================================================================
+--- trunk/xatulsa.com/templates/xatulsa.com-frontpage/outreach.html	2005-08-04 17:15:07 UTC (rev 94)
++++ trunk/xatulsa.com/templates/xatulsa.com-frontpage/outreach.html	2005-08-18 14:31:35 UTC (rev 95)
+@@ -54,6 +54,7 @@
+ 				<div id="content">
+ 					<div id="contentcenter">
+ 						<h2>Outreach Ministries</h2>
++						<p>We participate in various outreach opportunites throughout the year. And we invite you to join us as we reach out with the love of Christ to change our campus, community, and world. However, we have two outreach ministries that occur on a regular basis: John 3:16 and Drama which are discussed below.</p>
+ 						<h3>John 3:16</h3>
+ 						<p>"Then the righteous will answer him, 'Lord, when did we see you hungry and feed you, or thirsty and give you something to drink?'"</p>
+ 						<p>"The King will reply, 'I tell you the truth, whatever you did for one of the least of these brothers of mine, you did for me.'"</p>
+
+Modified: trunk/xatulsa.com/templates/xatulsa.com-frontpage/prayer.html
+===================================================================
+--- trunk/xatulsa.com/templates/xatulsa.com-frontpage/prayer.html	2005-08-04 17:15:07 UTC (rev 94)
++++ trunk/xatulsa.com/templates/xatulsa.com-frontpage/prayer.html	2005-08-18 14:31:35 UTC (rev 95)
+@@ -54,11 +54,15 @@
+ 				<div id="content">
+ 					<div id="contentcenter">
+ 						<h3>Monday Night Prayer</h3>
+-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque tincidunt. Mauris justo. Curabitur vitae nisl sit amet lorem tincidunt semper. Pellentesque interdum diam sed dolor. Aenean lorem. In massa arcu, congue quis, faucibus dictum, gravida at, enim. Etiam ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla molestie. Integer sagittis fringilla nulla. Cras eu lacus. Duis et lacus sit amet purus eleifend ullamcorper. Praesent pharetra nibh a elit. Nam aliquet viverra massa. Donec ullamcorper rhoncus metus. Maecenas nec diam. Aenean bibendum, lacus sed ultrices molestie, purus pede pretium risus, id pretium urna nibh in felis. Aliquam nec lacus eu ipsum tempus pellentesque. Quisque ac sapien.</p>
+-						<p>Nullam metus elit, tempus et, placerat vitae, sollicitudin id, lorem. Cras laoreet semper orci. Etiam eu elit sit amet magna vestibulum aliquam. Integer leo sem, dictum in, accumsan id, euismod faucibus, lectus. Vivamus metus nibh, ullamcorper non, lacinia non, vehicula eu, nisl. Sed sollicitudin tincidunt mauris. Maecenas at est. Sed adipiscing odio vel enim. Proin justo est, euismod vitae, venenatis viverra, egestas sit amet, risus. Sed risus tortor, hendrerit ac, facilisis nec, elementum non, orci. Nullam molestie urna nec lacus.</p>
+-						<p>Nam orci odio, sagittis nec, adipiscing ut, viverra non, sapien. Phasellus fermentum gravida mi. Duis mauris eros, vulputate vitae, egestas a, lacinia a, erat. Ut risus libero, vestibulum et, pulvinar ac, molestie vel, dolor. Maecenas eget mi ac elit vulputate auctor. Aenean fermentum. Mauris tincidunt, turpis non condimentum ullamcorper, enim arcu condimentum neque, ullamcorper sodales ligula erat sit amet ante. Aenean venenatis, nulla vel condimentum consequat, wisi velit dignissim tellus, eleifend rhoncus dui erat sed dolor. Proin egestas ultricies orci. Etiam fringilla, nunc quis euismod dapibus, lorem ipsum lacinia odio, non malesuada ligula lorem sit amet dolor.</p>
+-						<p>Sed libero. Quisque convallis, sapien nonummy egestas tincidunt, felis enim aliquet lacus, quis volutpat lectus tortor eget ipsum. Curabitur vitae wisi quis augue semper tristique. Nullam egestas felis vitae sem. Nulla nibh urna, suscipit nec, eleifend sit amet, feugiat eu, ligula. Sed scelerisque rutrum neque. Sed ut dolor vel risus dictum semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum tempor sollicitudin risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam sollicitudin aliquam ante. Etiam odio. Curabitur a lorem sit amet augue ultricies egestas. Curabitur eu sapien. Nullam vel ligula. Morbi posuere sapien et mi.</p>
+-						<p>Nunc ac ante et leo fringilla vestibulum. Fusce faucibus, nibh non tristique lacinia, urna turpis tincidunt pede, sit amet commodo magna purus vestibulum justo. Nulla tincidunt, orci in luctus lobortis, enim lorem nonummy libero, quis cursus sapien wisi eu ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis eu wisi. Nullam faucibus enim aliquam justo. Sed nisl. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin pretium felis. Suspendisse purus odio, vestibulum sed, commodo in, fringilla eu, nibh. Duis interdum blandit nibh. Ut iaculis. Nullam iaculis venenatis nisl.</p>						
++						<p>Peak of the Week? Sounds like something the mountaineers club chooses as the premier climbing spot for that week. Or perhaps is a weekly ?peek? at the hottest movie to hit theaters. Well you guessed it... it?s BOTH!! I mean... it?s NEITHER!!! We don?t have the funds or desire to mountain climb on a weekly basis or watch the hottest movie when there is the real Peak of the Week at our disposal. So what could be so insanely cool and exciting that your local Chi Alphans just had to refer to it as the Peak of their Week? Well I?ll tell you what it is. Well no actually I?ll tell you where it is. This will give more time for the suspense to build.</p>
++						<p>Well if you haven?t guessed it, this is a weekly meeting. It occurs every Monday night, at 9 pm, in none other than the world famous apartment 1612. Alright, well that about covers when and where. Now I?m sure you?re just dying to know what the Peak of the Week is.</p>
++						<p>Well if no one has told you about this awesome time yet, I will. The Peak of the Week is simply a name we have given to the common, or should be common, act of prayer. So why am I so excited about it, and why have Chi Alphans named it the most important part of their week. Well basically because it?s when we collectively get together and directly communicate with the Most Awesome One Himself.</p> 
++						<p>Prayer is something that most all Christians have heard of but very few indeed practice to its fullest awesomeness, if that makes sense. We are called to pray daily, and without ceasing. Sounds impossible? Well not really. Prayer is just communication with God, and if He is involved in everything we do, we can communicate without ceasing whether it be verbally or in our actions or thoughts. But if we pray daily then why do we need to come to a prayer time once a week?</p>
++						<p>One basic answer:  ?Where two or more are gathered in My name, I am there in the midst of them.? The Big One Himself said that, and we take hold of it. It?s true that without daily personal prayer, our relationship with God can?t grow. But a church, such as Chi Alpha, also needs prayer. We come together every Monday night to start our week off strong and to prepare for anything to come.</p>  
++						<p>At Monday night prayer we not only pray for specific needs that our members bring up, but we pray for every aspect of Chi Alpha. The bible tells us of an unseen battle going on constantly around us, and the only weapon we humans have is the power of prayer.</p>
++						<p>So I ask you to try out the Peak of the Week. If prayer is not your thing, or if you don?t think you can last praying for more than 10 minutes then I disagree with you. It is simply your choice. And Chi Alpha needs prayer as much as any one.</p>
++						<p>If you need further convincing here are a few of the benefits of prayer. God rewards those who give their time for the benefit of others. And he rewards those at prayer with words of wisdom and encouragement that you can?t get anywhere else on campus. I mean they come straight from Him to you. So that?s a huge immediate benefit. And then of course there is the long term benefit of answered prayers.</p>
++						<p>If you are interested in praying with us, or have any questions, feel free to email any of the Chi Alpha staff or just show up at apartment 1612 at 9 pm any Monday night. Thanks for taking the time to read this, and have a blessed day.</p>
+ 					</div>
+ 				</div>
+ 				<div id="footer">
+
+
+
